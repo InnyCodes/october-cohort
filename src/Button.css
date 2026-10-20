@@ -1,0 +1,8 @@
+.but {
+    border-radius: 20px;
+}
+
+.but:hover{
+    background-color: blue;
+    box-shadow:  2px 2px 10px gray;
+}
