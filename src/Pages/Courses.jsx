@@ -1,4 +1,4 @@
-import Sqi from "./sqi";
+import Sqi from "../sqi";
 
 function Courses() {
     return(

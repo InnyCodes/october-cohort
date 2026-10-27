@@ -1,4 +1,4 @@
-import "./Button.css"
+import "../Button.css"
 
 function Button({bg,color,text,click}) {
     const pstyle ={

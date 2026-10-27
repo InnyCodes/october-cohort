@@ -1,0 +1,33 @@
+.root {
+    background-color: black;
+    color: white;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    list-style-type: none;
+    gap: 6px;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.list a{
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #ccc;
+    border-radius: 8px;
+}
+
+.list a:hover {
+    background-color: #2a2a2a;
+    color: white;
+}

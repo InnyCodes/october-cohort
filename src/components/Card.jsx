@@ -1,5 +1,5 @@
-import appStyle from "./App.module.css"
-import Button from "../components/button"
+import appStyle from "../App.module.css"
+import Button from "./button"
 
 export const Card= ({obj})=> {
     const pstyle = {
