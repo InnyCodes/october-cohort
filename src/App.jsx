@@ -12,6 +12,7 @@ import { Profile } from "./dashboardPages/Profile"
 import { Overview } from "./dashboardPages/Overview"
 import { Settings } from "./dashboardPages/Settings"
 import { Logs } from "./dashboardPages/Logs"
+import { SingleLog } from "./dashboardPages/SingleLog"
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="overview" element={< Overview />} />
           <Route path="settings" element={< Settings />} />
           <Route path="logs" element={< Logs />} />
+          <Route path= "log/:id" element={<SingleLog/>}/>
         </Route>
 
         <Route path="*" element={< PageNotFound />} />
